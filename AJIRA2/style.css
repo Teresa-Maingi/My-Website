@@ -1,0 +1,36 @@
+body {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: normal;
+    background-color: beige;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  h1 {
+    text-align: center;
+  }
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: right;
+  }
+  .btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: lightgray;
+  }
